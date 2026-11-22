@@ -1,0 +1,43 @@
+# Generated build products
+/build/
+/bin/*
+!/bin/os-phase2.bin
+/programs/blank/build/
+/programs/blank/blank.bin
+*.o
+*.elf
+*.img
+*.iso
+*.qcow2
+
+# Local backups, submission archives, and temporary files
+/legacy/
+/.keep
+*.bak
+*.save
+*.swp
+*.swo
+*.tmp
+*.log
+*~
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.bundle
+.DS_Store
+
+# Local tools and credentials
+/.agents/
+/.codex/
+.aws/
+.ssh/
+.env
+.env.*
+.netrc
+.git-credentials
+credentials.json
+*.key
+*.pem
+*.p12
+*.pfx
